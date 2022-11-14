@@ -4,14 +4,12 @@ public class Main {
     public static void main(String[] args) {
         //Вводим числа с клавиатуры и записываем в переменные numx, numy и numz
         System.out.print("Введите число x: ");
-        Scanner first = new Scanner(System.in);
-        int numx = first.nextInt();
+        Scanner console = new Scanner(System.in);
+        int numx = console.nextInt();
         System.out.print("Введите число y: ");
-        Scanner second = new Scanner(System.in);
-        int numy = second.nextInt();
+        int numy = console.nextInt();
         System.out.print("Введите число z: ");
-        Scanner three = new Scanner(System.in);
-        int numz = three.nextInt();
+        int numz = console.nextInt();
         //Находим среднее арифметическое введенных чисел и записываем в переменную a
         double a = (numx + numy + numz) / 3;
         //Вывод для проверки посчитанного среднего арифметического
